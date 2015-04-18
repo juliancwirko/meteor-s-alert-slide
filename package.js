@@ -1,7 +1,7 @@
 Package.describe({
     'summary': 'Slide effect for s-alert - simple and fancy notifications / alerts for Meteor.',
     'version': '1.0.0',
-    'git': 'https://github.com/juliancwirko/meteor-s-alert.git',
+    'git': 'https://github.com/juliancwirko/meteor-s-alert-slide.git',
     'name': 'juliancwirko:s-alert-slide'
 });
 
