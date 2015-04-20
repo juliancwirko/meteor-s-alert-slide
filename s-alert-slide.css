@@ -11,7 +11,11 @@
 }
 
 .s-alert-effect-slide.s-alert-left-top.s-alert-show,
-.s-alert-effect-slide.s-alert-left-bottom.s-alert-show {
+.s-alert-effect-slide.s-alert-left-bottom.s-alert-show,
+.s-alert-top-left.s-alert-effect-slide.s-alert-show,
+.s-alert-bottom-left.s-alert-effect-slide.s-alert-show,
+.s-alert-top.s-alert-effect-slide.s-alert-show,
+.s-alert-bottom.s-alert-effect-slide.s-alert-show {
     -webkit-animation-name: animSlideElastic;
     animation-name: animSlideElastic;
     -webkit-animation-duration: 1s;
@@ -151,7 +155,9 @@
 }
 
 .s-alert-effect-slide.s-alert-right-top.s-alert-show,
-.s-alert-effect-slide.s-alert-right-bottom.s-alert-show {
+.s-alert-effect-slide.s-alert-right-bottom.s-alert-show,
+.s-alert-top-right.s-alert-effect-slide.s-alert-show,
+.s-alert-bottom-right.s-alert-effect-slide.s-alert-show {
     -webkit-animation-name: animSlideElasticRight;
     animation-name: animSlideElasticRight;
     -webkit-animation-duration: 1s;
@@ -231,7 +237,11 @@
 }
 
 .s-alert-effect-slide.s-alert-left-top.s-alert-hide,
-.s-alert-effect-slide.s-alert-left-bottom.s-alert-hide {
+.s-alert-effect-slide.s-alert-left-bottom.s-alert-hide,
+.s-alert-top-left.s-alert-effect-slide.s-alert-hide,
+.s-alert-bottom-left.s-alert-effect-slide.s-alert-hide,
+.s-alert-top.s-alert-effect-slide.s-alert-hide,
+.s-alert-bottom.s-alert-effect-slide.s-alert-hide {
     -webkit-animation-name: animSlide;
     animation-name: animSlide;
     -webkit-animation-duration: 0.25s;
@@ -249,7 +259,11 @@
 }
 
 .s-alert-effect-slide.s-alert-right-top.s-alert-hide,
-.s-alert-effect-slide.s-alert-right-bottom.s-alert-hide {
+.s-alert-effect-slide.s-alert-right-bottom.s-alert-hide,
+.s-alert-top-right.s-alert-effect-slide.s-alert-hide,
+.s-alert-bottom-right.s-alert-effect-slide.s-alert-hide,
+.s-alert-top-right.s-alert-effect-slide.s-alert-hide,
+.s-alert-bottom-right.s-alert-effect-slide.s-alert-hide {
     -webkit-animation-name: animSlideRight;
     animation-name: animSlideRight;
     -webkit-animation-duration: 0.25s;
